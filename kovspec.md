@@ -36,4 +36,7 @@ A munkatársaink átváltják a szükséges számokat a webes felületen, ami gy
 
 ## 5 A Rendszerre vonatkozó szabályok
 
+Legyen gyorsan használható.
+Legyen intuitív, és felhasználóbarát.
+
 ## 6 Követelménylista
