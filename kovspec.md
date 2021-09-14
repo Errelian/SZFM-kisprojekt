@@ -41,5 +41,6 @@ Legyen intuitív és felhasználóbarát.
 
 ## 6 Követelménylista
 
-Az automatizáción túl, további optimalizáció céljából a gyakran használatos átváltások alapbeállításai elmenthetők. 
-Az elmentett elemeken túl mivel cookieba mentés történik, a leggyakrabban használt ("kedvenc") átváltások alapból elmentésre kerülnek a weboldal által.
+Az automatizáción túl, további optimalizáció céljából a gyakran használatos átváltások alapbeállításai legyenek elmenthetők. 
+Az elmentett elemeken túl történjen cookieba mentés, a leggyakrabban használt ("kedvenc") átváltások alapból kerüljenek elmentésre a weboldal által.
+Röviden legyen elmagyarázva a konverter helyes használata.
