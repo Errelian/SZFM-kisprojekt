@@ -1,4 +1,3 @@
-
 function numberBaseValidation(numberBase)
 {
     if (origBase < 2 || origBase > 36)
@@ -18,7 +17,7 @@ function convertBase(origNumStr, origBase, newBase) {
         return decimalNumStr;
     else
         return parseInt(decimalNumStr).toString(newBase)
-  }
+}
 
 num = "256"
 
