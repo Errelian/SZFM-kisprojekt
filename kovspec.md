@@ -2,11 +2,11 @@
 
 ## 1 Jelenlegi Helyzet
 
-A Macrohard Kft. munkatársai gyakran találják maguk olyan helyzetben, ahol a kliensekkel való kommunikáció közben gyorsan és pontosan kell kettes, nyolcas, tízes, tizenhatos és húszas számrendszerek között átváltásokat végezni, amit jelen pillanatban csak lassan, kézzel tudnak elvégezni, ami kifejezetten lassítja a kommunikációt ezekben a szituációkban.
+A Macrohard Kft. munkatársai gyakran találják magukat olyan helyzetben, ahol a kliensekkel való kommunikáció közben gyorsan és pontosan kell kettes, nyolcas, tízes, tizenhatos és húszas számrendszerek között átváltásokat végezni, amit jelen pillanatban csak lassan, kézzel tudnak elvégezni, ami kifejezetten lassítja a kommunikációt ezekben a szituációkban.
 
 ## 2 Vágyott Helyzet
 
-A Macrohard Kft. fejlődése érdekében és a hatékony kommunikáció elérése érdekében a cégünk egy digitális számrendszer átváltó-rendszert, azon belül pedig egy webes megvalósításra lenne igény.
+A Macrohard Kft. fejlődése érdekében és a hatékony kommunikáció elérése érdekében a cégünk egy digitális számrendszer átváltó-rendszer-, azon belül pedig annak egy webes megvalósítására lenne igény.
 
 A weboldal legyen egyszerű, könnyen kezelhető, esztétikus, kliens-oldalú és alacsony-erőforrás igényű.
 
@@ -28,15 +28,18 @@ Ha esetleg olyan szám átváltásra lenne szükség, amely nem lett előkészí
 
 ### 4.1 Klienssel való kapcsolat felvétele
 
-A munkatársaink a gyors átváltás lehetősége miatt felveszik a kapcsolatot a klienssel különösebb előkészületek nélkül.
+A munkatársaink a gyors átváltás lehetősége miatt felveszik a kapcsolatot a klienssel, különösebb előkészületek nélkül.
 
 ### 4.2 Automatizált átváltások
 
-A munkatársaink átváltják a szükséges számokat a webes felületen, ami gyors és megbízható, ezzel gyorsítva a kommunikációt, csökkentve az egy klienssel töltött időt, növelve a munkatársaink kapacitását.
+A munkatársaink átváltják a szükséges számokat a webes felületen, ami gyors és megbízható, ezzel gyorsítva a kommunikációt, csökkentve az egy klienssel töltött időt, növelve a munkatársaink kapacitását. 
 
 ## 5 A Rendszerre vonatkozó szabályok
 
 Legyen gyorsan használható.
-Legyen intuitív, és felhasználóbarát.
+Legyen intuitív és felhasználóbarát.
 
 ## 6 Követelménylista
+
+Az automatizáción túl, további optimalizáció céljából a gyakran használatos átváltások alapbeállításai elmenthetők. 
+Az elmentett elemeken túl mivel cookieba mentés történik, a leggyakrabban használt ("kedvenc") átváltások alapból elmentésre kerülnek a weboldal által.
