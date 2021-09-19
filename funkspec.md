@@ -62,7 +62,7 @@ A webes felület a vállalat bármely munkavállalója által használható szá
 
 ## 8. Képernyőtervek
 
-[insert kép here]
+![mock](https://user-images.githubusercontent.com/44093276/133934356-3e9f8760-62dc-44d8-8fa9-716ff231daa4.png)
 
 ## 9.Forgatókönyvek
 
