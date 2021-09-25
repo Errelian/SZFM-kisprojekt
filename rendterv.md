@@ -106,6 +106,7 @@ A projekt megvalósítás szerint egy weboldal, ami azt jelenti hogy bármely we
     - Git
     - Visual Studio Code
     - Microsoft Paint
+    - yEd Graph Editor
 * Tesztelt környezetek:
     - Microsoft Edge (Chromium)
     - Google Chrome
@@ -118,7 +119,7 @@ A projekt megvalósítás szerint egy weboldal, ami azt jelenti hogy bármely we
 A rendszer, a weboldal, kialakítását, megjelenítését a HTML és CSS technológiák határozzák meg, míg a funkcionalitást a beépített Javascript szkript valósítja meg, aminek a bemenetét és kimenetét HTML formok valósítják meg.
 
 
-[Absztrakt domain modell kép
+![Domain modell gráf](/img/domainmodell.png)
 
 ## 8. Architekturális terv
 
