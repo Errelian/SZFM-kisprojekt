@@ -98,7 +98,20 @@ Pl: Legyen a weboldalin xy ami yx-et csinál és xxy-t ad vissza.
 
 ## 6. Fizikai környezet
 
-Min írjuk, min futtatjuk, tényleges programnevek, platformok.
+A projekt megvalósítás szerint egy weboldal, ami azt jelenti hogy bármely webes felületet megjeleníteni tudó eszközre készül.
+ * A kliens által biztosított eszközök:
+    - Webszerver
+    - Megjelenítésre képes asztali gép.
+* Fejlesztők által használt eszközök, technológiák:
+    - Git
+    - Visual Studio Code
+    - Microsoft Paint
+* Tesztelt környezetek:
+    - Microsoft Edge (Chromium)
+    - Google Chrome
+    - Mozilla Firefox
+    - Opera
+
 
 ## 7. Absztrakt domain modell
 
