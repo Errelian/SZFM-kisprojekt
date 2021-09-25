@@ -2,9 +2,19 @@
 
 ## 1. A rendszer célja
 
-## 2. A projekt Terve
+Mit akarunk csinálni az alkalmozattaknak.
 
-//Hogyan, miként, hol, kik és mit fognak fejleszteni.
+## 2. A projekt terve
+
+A weboldal HTML, CSS és a Javascript technológiák révén fog megvalósulni.
+
+A fejlesztők csapata négy személyből áll, mindenki saját felelőségekkel rendelkezik:
+* Vas Ruben Levente - HTML
+* Somogyi Viktória - CSS
+* Görög Balázs - Javascript
+* Pintér Balázs - Tesztelés, integráció
+
+A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni a fejlesztést.
 
 
 ### 2.1 Mérföldkövek
