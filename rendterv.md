@@ -20,9 +20,13 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
 ### 2.1 Mérföldkövek
 
 [01] Feladatok kiosztása, szerepek meghatározása.
+
 [02] A weboldal kinézetének megtervezése.
+
 [03] A javascript funkciók implementációja.
+
 [04] A javascript funkciók integrációja az oldalhoz.
+
 [05] Az oldal megfelelő mértékő tesztelésse a kívánt platformokon.
 
 ### 2.2 Ütemterv
