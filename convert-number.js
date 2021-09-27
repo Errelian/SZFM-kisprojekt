@@ -1,6 +1,8 @@
 function numberBaseValidation(numberBase)
 {
-    if (origBase < 2 || origBase > 36)
+    if (numberBase === null)
+        throw new Error('Number base must not be NULL!')
+    if (numberBase < 2 || numberBase > 36)
         throw new Error('Invalid source number base: ' + origBase + ' out of permitted range: 2 - 36')
 }
 
@@ -18,7 +20,3 @@ function convertBase(origNumStr, origBase, newBase) {
     else
         return parseInt(decimalNumStr).toString(newBase)
 }
-
-num = "256"
-
-console.log(convertBase(num, 10, 2))
