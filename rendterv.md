@@ -19,12 +19,23 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
 
 ### 2.1 Mérföldkövek
 
-pl: [01] Feladatok kiosztása
-    [02] Integrálás stb
+[01] Feladatok kiosztása, szerepek meghatározása.
+[02] A weboldal kinézetének megtervezése.
+[03] A javascript funkciók implementációja.
+[04] A javascript funkciók integrációja az oldalhoz.
+[05] Az oldal megfelelő mértékő tesztelésse a kívánt platformokon.
 
 ### 2.2 Ütemterv
 
-pl: hogyan és milyen sorrendben érjük el a mérföldköveket, ez is olyan felsorolás legyen mint az előző
+1: [01] Elérese, ez egy közös megbeszélés útján történik meg.
+
+2: [02] Elérése, ez a HTML és a CSS fejlesztők eggyütmőködése, közös megegyezése útján valósul meg.
+
+3: [03] Elérése, ez a JavaScript fejlesztő egyedüli felelőssége.
+
+4: [04] Elérése, ez a Javascript, HTML és a CSS fejlesztők közös munkáján keresztül valósul meg, amit egy közös megbeszélés előz meg.
+
+5  [05] Elérése, ami a Tesztelő felelőssége, megvalósítása meg a különböző webböngészőkön keresztüli teszteléssel valósul meg.
 
 ## 3. Modell az üzleti folyamatokhoz
 
