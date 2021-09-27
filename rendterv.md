@@ -2,16 +2,16 @@
 
 ## 1. A rendszer célja
 
-Mit akarunk csinálni az alkalmozattaknak.
+Mit akarunk csinálni az alkalmazottaknak.
 
 ## 2. A projekt terve
 
-A weboldal HTML, CSS és a Javascript technológiák révén fog megvalósulni.
+A weboldal HTML, CSS és a JavaScript technológiák révén fog megvalósulni.
 
 A fejlesztők csapata négy személyből áll, mindenki saját felelőségekkel rendelkezik:
 * Vas Ruben Levente - HTML
 * Somogyi Viktória - CSS
-* Görög Balázs - Javascript
+* Görög Balázs - JavaScript
 * Pintér Balázs - Tesztelés, integráció
 
 A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni a fejlesztést.
@@ -23,21 +23,21 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
 
 [02] A weboldal kinézetének megtervezése.
 
-[03] A javascript funkciók implementációja.
+[03] A JavaScript funkciók implementációja.
 
-[04] A javascript funkciók integrációja az oldalhoz.
+[04] A JavaScript funkciók integrációja az oldalhoz.
 
-[05] Az oldal megfelelő mértékő tesztelésse a kívánt platformokon.
+[05] Az oldal megfelelő mértékű tesztelése a kívánt platformokon.
 
 ### 2.2 Ütemterv
 
-1: [01] Elérese, ez egy közös megbeszélés útján történik meg.
+1: [01] Elérése, ez egy közös megbeszélés útján történik meg.
 
-2: [02] Elérése, ez a HTML és a CSS fejlesztők eggyütmőködése, közös megegyezése útján valósul meg.
+2: [02] Elérése, ez a HTML és a CSS fejlesztők együttműködése, közös megegyezése útján valósul meg.
 
 3: [03] Elérése, ez a JavaScript fejlesztő egyedüli felelőssége.
 
-4: [04] Elérése, ez a Javascript, HTML és a CSS fejlesztők közös munkáján keresztül valósul meg, amit egy közös megbeszélés előz meg.
+4: [04] Elérése, ez a JavaScript, HTML és a CSS fejlesztők közös munkáján keresztül valósul meg, amit egy közös megbeszélés előz meg.
 
 5  [05] Elérése, ami a Tesztelő felelőssége, megvalósítása meg a különböző webböngészőkön keresztüli teszteléssel valósul meg.
 
@@ -47,7 +47,7 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
  * Kommunikációs Dolgozó
 
 ### 3.1.2. Erőforrások:
- * Bármilyen eszköz, amely képes Javascript/HTML oldalakat megjeleníteni és lekezelni
+ * Bármilyen eszköz, amely képes JavaScript/HTML oldalakat megjeleníteni és lekezelni
  * Szervergép
  * Hálózati kapcsolat
  
@@ -62,11 +62,11 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
 
 ### 3.1.6. Folyamat:
 
-A kommunikációs dolgozó át kíván küldeni egy számot adott számrendszerben az ügyfélnek -> Leellenőrzi hogyy a kívánt számrednszer megegyezik a a jelenlegivel.
+A kommunikációs dolgozó át kíván küldeni egy számot adott számrendszerben az ügyfélnek -> Leellenőrzi hogy a kívánt számrendszer megegyezik a a jelenlegivel.
 
 Ha igen: Átküldi a számot, a kommunikáció gond nélkül folytatódik.
 
-Ha nem: Beírja a weboldalba a kívánt számrendszert, a jelenlegi számrendzsert, és magát a számot. -> Megnyomja az átváltás gombot -> Leolvassa a szám új alakját. -> átküldi az ügyfélnek, a kommunikáció gond nélkül folytatódik.
+Ha nem: Beírja a weboldalba a kívánt számrendszert, a jelenlegi számrendszert, és magát a számot. -> Megnyomja az átváltás gombot -> Leolvassa a szám új alakját. -> átküldi az ügyfélnek, a kommunikáció gond nélkül folytatódik.
 
 ### 3.1.7: Folyamatábra:
 
@@ -131,7 +131,7 @@ A projekt megvalósítás szerint egy weboldal, ami azt jelenti hogy bármely we
 
 ## 7. Absztrakt domain modell
 
-A rendszer, a weboldal, kialakítását, megjelenítését a HTML és CSS technológiák határozzák meg, míg a funkcionalitást a beépített Javascript szkript valósítja meg, aminek a bemenetét és kimenetét HTML formok valósítják meg.
+A rendszer, a weboldal, kialakítását, megjelenítését a HTML és CSS technológiák határozzák meg, míg a funkcionalitást a beépített JavaScript szkript valósítja meg, aminek a bemenetét és kimenetét HTML formok valósítják meg.
 
 
 ![Domain modell gráf](/img/domainmodell.png)
@@ -150,7 +150,7 @@ A weboldal nem kezel adatbázist, ezért ennek az elkészítése szükségtelen.
 
 ## 10. Implementációs terv
 
-Nem kerül elkészításre, mivel a weboldalban szereplő osztályok kicsik, a kapcsolatok köztük triviálisak.
+Nem kerül elkészítésre, mivel a weboldalban szereplő osztályok kicsik, a kapcsolatok köztük triviálisak.
 
 
 ## 11. Teszt tervek
