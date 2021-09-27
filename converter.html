@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Számkonverter</h1>
+
+<form>
+  <label for="amount"></label><br>
+  <input type="number" 
+	required 
+	name="bemenet"
+	id="amount"
+	placeholder="..." 
+	step=".01"><br>
+  <label for="nr"><b>Milyen számrendszerből?</b></label><br>
+  <input type="number" 
+	required 
+	id="base"
+	value="10"
+	min="2"
+	max="36"
+	pattern="[0-9]"><br><br><br>
+  <input type="submit" 
+	value="Konvertálj" 
+	class="convertbutton">
+  <label for="amount"></label><br>
+  <input type="number" 
+	id="amount" 
+	readonly><br>
+  <label for="nr"><b>Milyen számrendszerbe?</b></label><br>
+  <input type="number" 
+	required 
+	id="base"
+	value="2"
+	min="2"
+	max="36"
+	pattern="[0-9]"><br><br><br>
+  <input type="submit" 
+  value="Big Green (betöltés)" 
+  class="loadbutton" 
+  style="background-color:lightgreen">
+
+</form> 
+
+<p>Ha megnyomod a konvertálás gombot, a kiválasztott számrendszerből a megadott mennyiséget átváltja.</p>
+
+</body>
+</html>
