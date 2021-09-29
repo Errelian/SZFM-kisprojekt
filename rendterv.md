@@ -50,7 +50,7 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
  * Bármilyen eszköz, amely képes JavaScript/HTML oldalakat megjeleníteni és lekezelni
  * Szervergép
  * Hálózati kapcsolat
- 
+
 ### 3.1.3. Bemenetek:
  * Szám és számrendszer
 
@@ -77,7 +77,7 @@ Ha nem: Beírja a weboldalba a kívánt számrendszert, a jelenlegi számrendsze
 
 ## 4. Követelmények
 
-Az előző dokumentumok követelményeinek magyarázata. Pl 
+Az előző dokumentumok követelményeinek magyarázata. Pl
 ## [01] Valami
     A weboldal xy-ja yx-el fog megvalósulni.
 
@@ -155,7 +155,12 @@ Nem kerül elkészítésre, mivel a weboldalban szereplő osztályok kicsik, a k
 
 ## 11. Teszt tervek
 
-Alacsonyabb szintű pontokban mit hogy és hogyan fogunk letesztelni.
+A projekt tesztelése két részből fog állni.
+  #### 11.1 UI tesztelés
+  Annak ellenőrzése, hogy a weboldal, és annak vizuális elemei megfelelően és esztétikusan jelennek-e meg a főbb böngészőkben és platformokon.
+
+  #### 11.2 Funkcionális tesztelés
+Annak ellenőrzése, hogy a program képes pontos átváltásra a megadott számrendszerek között.
 
 
 ## 12. Telepítési tervezet.
