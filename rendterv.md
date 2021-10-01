@@ -165,7 +165,7 @@ Annak ellenőrzése, hogy a program képes pontos átváltásra a megadott szám
 
 ## 12. Telepítési tervezet.
 
-Hogyan fogjuk feltelepíteni.
+A felhasználó letölti az alkalmazást, majd egy általa preferált böngészővel megnyitja a converter.html fájlt.
 
 ## 13. Karbantartási tervezet.
 
