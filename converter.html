@@ -6,30 +6,37 @@
     <title>Számrendszer Átalakító</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
     <script type="text/javascript" src='convert-number.js'></script>
     <script type="text/javascript" src='fave-save.js'></script>
 </head>
 
 <body onload="readFaveNumsHandler()">
 
-    <h1>Számkonverter</h1>
+    <h1>Számkonverter<img src="https://img.icons8.com/material-outlined/24/000000/curly-arrow.png"></h1>
 
     <form>
-        <label for="inputAmount"></label><br />
-        <input type="text" required name="bemenet" id="inputAmount" placeholder="..."><br />
-        <label for="inputBase"><b>Milyen számrendszerből?</b></label><br />
-        <input type="number" required id="inputBase" value="27" min="2" max="36" step="1"><br /><br /><br />
-        <input type="button" value="Konvertálj" class="convertbutton" onClick="convertBaseHandler()">
-        <label for="outputAmount"></label><br />
-        <input type="text" id="outputAmount" readonly><br>
-        <label for="outputBase"><b>Milyen számrendszerbe?</b></label><br>
-        <input type="number" required id="outputBase" value="12" min="2" max="36" step="1"><br />
-        <input type="button" value="Big Green (lementés)" class="loadbutton" style="background-color:lightgreen"
-            onClick="javascript:saveFaveNumHandler()">
-
+        <div class="column">
+            <label for="inputAmount"><b>Adja meg az átkonvertálandó számot:</b></label><br />
+            <input type="text" required name="bemenet" id="inputAmount" placeholder="..."><br />
+            <label for="inputBase"><b>Milyen számrendszerből?</b></label><br />
+            <input type="number" required id="inputBase" value="27" min="2" max="36" step="1"><br />
+        </div>
+        <div class="column">
+            <input type="button" value="Konvertálás" class="convertbutton" onClick="convertBaseHandler()"><br />
+            <input type="button" value="Kedvenc számrendszerpáros mentése" class="loadbutton" onClick="javascript:saveFaveNumHandler()"><br />
+        </div>
+        <div class="column">
+            <label for="outputAmount"><b>Az átkonvertált szám:</b></label><br />
+            <input type="text" id="outputAmount" readonly><br>
+            <label for="outputBase"><b>Milyen számrendszerbe?</b></label><br>
+            <input type="number" required id="outputBase" value="12" min="2" max="36" step="1"><br />
+        </div>
     </form>
 
     <p>Ha megnyomod a konvertálás gombot, a kiválasztott számrendszerből a megadott mennyiséget átváltja.</p>
+
+    <footer><a href="https://icons8.com/icon/123869/curly-arrow">Curly Arrow icon by Icons8</a></footer>
 
 </body>
 
