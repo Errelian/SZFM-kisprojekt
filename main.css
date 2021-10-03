@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 0em;
+    background-color: #eff5f5;
+}
+
+h1 {
+    margin: 0em -0.25em;
+    padding: 0.75em 0em;
+    background-color: darkslategray;
+    color: floralwhite;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+    font-stretch: semi-expanded;
+    text-indent: 5%;
+}
+
+form {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-weight: lighter;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    display: flex;
+    display: -webkit-flex;
+}
+
+
+.column {
+    text-align: center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 1em;
+}
+
+#inputAmount, #inputBase {
+    margin: 1em;
+    border: 2px solid darkslategray;
+    border-radius: 0.2em;
+}
+
+#inputAmount {
+    width: 50%;
+}
+
+#inputBase {
+    width: 4em;
+}
+
+.convertbutton {
+    background-color: forestgreen;
+    color: floralwhite;
+    border-style: outset;
+    font-weight: bold;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+    transition-duration: 0.4s;
+}
+
+.convertbutton:hover, .convertbutton:active {
+    background-color: #196719;
+    cursor: pointer;
+}
+.convertbutton:active {
+    border-style: inset;
+}
+
+.loadbutton {
+    background-color: cadetblue;
+    color: floralwhite;
+    border-style: outset;
+    font-weight: bolder;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+    transition-duration: 0.4s;
+}
+
+.loadbutton:hover, .loadbutton:active {
+    background-color: #4d7e80;
+    cursor: pointer;
+}
+
+.loadbutton:active {
+    border-style: inset;
+}
+
+#outputAmount, #outputBase {
+    margin: 1em;
+    border: 2px solid darkslategray;
+    border-radius: 0.2em;
+}
+
+#outputAmount {
+    background-color: #d6f5d6;
+    cursor: not-allowed;
+    width: 50%;
+}
+
+#outputBase {
+    width: 4em;
+}
+
+p {
+    font-weight: lighter;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-size: small;
+    position: fixed;
+    bottom: 0em;
+
+}
+
+@media (max-width: 600px) {
+    form {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
