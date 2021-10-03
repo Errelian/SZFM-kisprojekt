@@ -9,7 +9,7 @@ from selenium import webdriver
 rounds = int(sys.argv[1])
 driver = webdriver.Safari()
 
-driver.get('file:///Users/pbalazs101/Code/2021:2/SoftMod/final/SZFM-kisprojekt/converter.html')
+driver.get('file://(path to converter.html)')
 
 i = 0
 correct = 0
