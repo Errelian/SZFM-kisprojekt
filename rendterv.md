@@ -2,7 +2,9 @@
 
 ## 1. A rendszer célja
 
-Mit akarunk csinálni az alkalmazottaknak.
+A weboldal a megrendelő Macrohard Kft. alkalmazottai számára lehetőséget nyújt a munkájuk során felmerülő számrendszer-átváltások
+egyszerű, gyors és megbízható végrehajtására. Mindezt biztosítják a lentebb részletezett technológiák segítségével implementált,
+a megrendelő igényeihez igazított funkciók. Ezek segítségével a Macrohard Kft. alkalmazottai egy egyszerűen kezelhető és esztétikus, kliens-oldalon működő eszközt kapnak kézhez, ezzel is segítve és gyorsítva a mindennapi munkavégzésüket. 
 
 ## 2. A projekt terve
 
@@ -62,7 +64,7 @@ A fejlesztők csapata a saját, általuk biztosított gépeken fogják végezni 
 
 ### 3.1.6. Folyamat:
 
-A kommunikációs dolgozó át kíván küldeni egy számot adott számrendszerben az ügyfélnek -> Leellenőrzi hogy a kívánt számrendszer megegyezik a a jelenlegivel.
+A kommunikációs dolgozó át kíván küldeni egy számot adott számrendszerben az ügyfélnek -> Leellenőrzi, hogy a kívánt számrendszer megegyezik-e a jelenlegivel.
 
 Ha igen: Átküldi a számot, a kommunikáció gond nélkül folytatódik.
 
@@ -74,6 +76,8 @@ Ha nem: Beírja a weboldalba a kívánt számrendszert, a jelenlegi számrendsze
 
 
 ### 3.1.8: Példa:
+
+Az egyik kommunikációs dolgozó kap egy "1E240" hexadecimális számot egy ügyféltől, amit át kell váltson huszonhármas számrendszerbe. Megnyitja a weboldalt, amelyen a legutoljára elmentett számrendszer-párosa a kettesből tízes. Mivel nem egyeznek meg a kívánt és a jelenlegi számrendszerek, így ezeket átállítja az elvártnak megfelelően. Ezután beírja az átváltani kívánt számot, majd megnyomja a konvertálás gombot. Ekkor megtörténik az átváltás, a dolgozó eredményként visszakapja az "A38F" számot, amit aztán elküld az ügyfélnek.
 
 ## 4. Követelmények
 
@@ -163,10 +167,10 @@ A projekt tesztelése két részből fog állni.
 Annak ellenőrzése, hogy a program képes pontos átváltásra a megadott számrendszerek között.
 
 
-## 12. Telepítési tervezet.
+## 12. Telepítési tervezet
 
 A felhasználó letölti az alkalmazást, majd egy általa preferált böngészővel megnyitja a converter.html fájlt.
 
-## 13. Karbantartási tervezet.
+## 13. Karbantartási tervezet
 
 Szükségtelen, mivel a weboldal természetéből eredendően nincs szükség karbantartásra, csak esetleges javítócsomagokra.
