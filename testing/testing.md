@@ -18,7 +18,7 @@ Az oldalon megjelenő elemek, és a main.css-ben meghatározott vizuális megszo
   - Safari
 
 ### Eredmény
-A tesztelés konklúziója, hogy mivel a stíluslapban relatív értékek kerültek megadásra, így az oldal adaptív, és valós időben képes alkalmazkodni a böngészőablak átméretezéséhez. 
+A tesztelés konklúziója, hogy mivel a stíluslapban relatív értékek kerültek megadásra, így az oldal adaptív, és valós időben képes alkalmazkodni a böngészőablak átméretezéséhez. Internet Explorer alatt jelentkeztek grafikai problémák, melyek megoldását elvetettük, hiszen a Microsoft is az Edge böngészőt ajánlja az Internet Explorer helyett, ahol a probléma nem jelentkezett.
 
 
 ## Funkciónális tesztelés
