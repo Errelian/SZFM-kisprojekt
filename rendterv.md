@@ -72,7 +72,7 @@ Ha nem: Beírja a weboldalba a kívánt számrendszert, a jelenlegi számrendsze
 
 ### 3.1.7: Folyamatábra:
 
-![flowchart](img/rendterv_folyamatabra.png)
+![Folyamatábra](img/rendterv_folyamatabra.png)
 
 ### 3.1.8: Példa:
 
