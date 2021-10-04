@@ -80,10 +80,23 @@ Az egyik kommunikációs dolgozó kap egy "1E240" hexadecimális számot egy üg
 
 ## 4. Követelmények
 
-Az előző dokumentumok követelményeinek magyarázata. Pl
-## [01] Valami
-    A weboldal xy-ja yx-el fog megvalósulni.
+Az előző dokumentumok követelményeinek magyarázata.
 
+# [K01] Hordozhatóság
+
+A weboldal a dolgozók által használt különféle eszközökön megjeleníthető és használható, hiszen web-alapú és kliens-oldali.
+
+# [K02] Gyors működés
+
+A weboldal kis erőforrás-igényű, hiszen letisztult és az átváltás mögötti számítási folyamatok optimalizáltak. 
+
+# [K03] Könnyű kezelhetőség
+
+A weboldal megjelenése letisztult, használata egyszerű, mivel csak olyan funkciókat tartalmaz, amely az átváltásokhoz szükséges.
+
+# [K04] Pontos átváltások
+
+A weboldal mögötti számítási folyamatok optimalizáltak és teszteltek, így garantálható a pontos eredmény.
 
 ## 5. Funkcionális terv
 
