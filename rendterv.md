@@ -1,8 +1,10 @@
-# Számrendszer átalakító rendszerszerterv
+# Számrendszer átalakító rendszerterv
 
 ## 1. A rendszer célja
 
-Mit akarunk csinálni az alkalmazottaknak.
+Az alkalmazottak hatékonyságának növelését szeretnénk elérni, miközben az ilyen fejben nehezen- de számítógéppel egyszerűen megoldható, és implementálható műveleteket el tudják végezni a fejlesztett weboldalon. 
+Célja továbbá, hogy különösebb magyarázatot ne igényeljen, hanem intuitív felhasználói-felületet biztosítson az alkalmazottaknak. 
+A pontosság nyilvánvaló szempont, de ez is egyértelmű cél.
 
 ## 2. A projekt terve
 
