@@ -88,9 +88,7 @@ Az előző dokumentumok követelményeinek magyarázata. Pl
 
 ### 5.1. Az elkészítendő rendszer tulajdonságai
 
-Pl: Egy olyan weboldal amely:
-    -cucc1
-    -cucc2
+Egy olyan weboldal amelynek a felhasználó megad egy számrendszer-alapot bemeneti- és kimeneti oldalon is, vagyis hogy milyen számrendszerből milyen más számrendszerbe váltson a program; illetve egy bemeneti egész szám értéket, hogy mennyit váltson át. A weboldal programja ezután a kimeneti cellában kiírja az átváltott értéket a kívánt alapon.
 
 ### 5.2. Rendszerszereplők
 Pl:
